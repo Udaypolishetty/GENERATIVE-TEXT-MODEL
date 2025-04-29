@@ -8,7 +8,7 @@ const fileCancelButton = document.querySelector("#file-cancel");
 
 
 //API setup
-const API_KEY = "AIzaSyDmHz4UhU1nzyfLYhUzV-4fIsEwUuY6lqg"
+const API_KEY = "Youy API_KEY"
 const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`
 
 const userData = {
