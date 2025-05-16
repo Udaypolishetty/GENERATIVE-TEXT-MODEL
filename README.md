@@ -54,12 +54,6 @@ This project uses **Google Gemini API** for AI-generated replies.
 
 ---
 
-## 📸 Screenshot
-
-> *(You can insert screenshots of your chatbot UI here to showcase it.)*
-
----
-
 ## 🙌 Author
 
 **Uday Polishetty**  
