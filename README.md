@@ -1,66 +1,42 @@
-# 🤖 My First AI Bot
+TextSummarization Tool (Python + Gradio)
 
-A sleek and modern chatbot UI built with HTML, CSS, and JavaScript. This lightweight chatbot interface is designed for easy integration with AI models like Google Gemini or OpenAI GPT.
+TextSummarization is a modern web application built with Python and Gradio designed to simplify and enhance the process of summarizing large texts into concise summaries. This app aims to help users quickly extract the essential points from lengthy articles, research papers, news, or any type of content they wish to shorten.
 
----
+The application utilizes a clean and intuitive user interface, offering an easy-to-use experience with the following features:
 
-## 🚀 Features
+Real-time Text Input: Users can paste or type large texts directly into the input field.
 
-- 💬 Clean and interactive chat interface
-- 📎 File attachment support (image preview)
-- 😀 Emoji picker integration
-- 🤖 Bot response via Google Gemini API
-- 🔄 Dynamic thinking animation
-- 📱 Fully responsive design
+Summarization: Upon submitting the text, the application processes it and generates a summary by extracting the most relevant and critical information.
 
----
+Results Display: The summarized content is displayed instantly, allowing users to copy or further edit the summarized text.
 
-## 📁 Project Structure
+Responsive Design: The app is designed to be mobile and desktop-friendly, ensuring a seamless experience across different devices.
 
-```
-.
-├── index.html       # Main UI structure
-├── styles.css       # Styling for chatbot layout and animations
-├── app.js           # JavaScript logic, including API interaction
-```
+Navigation: The app includes a user-friendly interface for easy interaction with summarization features.
 
----
+Built with the powerful Python ecosystem, the application ensures fast processing and an interactive experience. Gradio provides an easy-to-use UI framework, making the development process smooth and the user interface responsive.
 
-## 🔧 Setup Instructions
+Key Technologies Used:
+Python: For backend logic and AI model integration.
 
-1. **Clone the repository:**
+Gradio: For building the interactive web interface.
 
-```bash
-git clone https://github.com/Udaypolishetty/My-First-AI-BOT.git
-cd My-First-AI-BOT
-```
+Hugging Face Transformers (PEGASUS): For advanced text summarization.
 
-2. **Open in browser:**
+Torch: For efficient tensor computation supporting the model.
 
-Just double-click `index.html` or run:
+How to Run:
+Clone this repository to your local machine.
 
-```bash
-start index.html
-```
+Run pip install -r requirements.txt to install all dependencies.
 
----
+Run python app.py to start the application.
 
-## 🔐 API Integration
+Open your browser and go to http://localhost:7860 to see the app in action.
 
-This project uses **Google Gemini API** for AI-generated replies.
+Future Enhancements:
+Integration of AI or machine learning models for more advanced text summarization techniques.
 
-- Replace the `API_KEY` in `app.js` with your valid Google API key.
-- Make sure your API key has access to `generativelanguage.googleapis.com`.
+Support for multiple languages and various text formats (PDF, Word).
 
----
-
-## 🙌 Author
-
-**Uday Polishetty**  
-[GitHub Profile](https://github.com/Udaypolishetty)
-
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
+A backend service to allow users to save or export their summaries.
