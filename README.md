@@ -1,42 +1,45 @@
-# TextSummarization Tool (Python + Gradio)
+# GENERATIVE-TEXT-MODEL
 
-TextSummarization is a modern web application built with Python and Gradio designed to simplify and enhance the process of summarizing large texts into concise summaries. This app aims to help users quickly extract the essential points from lengthy articles, research papers, news, or any type of content they wish to shorten.
+COMPANY: CODETECH IT SOLUTIONS
 
-The application utilizes a clean and intuitive user interface, offering an easy-to-use experience with the following features:
+NAME: POLISHETTY UDAY
 
-Real-time Text Input: Users can paste or type large texts directly into the input field.
+INTERN ID: CODF47
 
-Summarization: Upon submitting the text, the application processes it and generates a summary by extracting the most relevant and critical information.
+DOMAIN: WEB DEVELOPMENT
 
-Results Display: The summarized content is displayed instantly, allowing users to copy or further edit the summarized text.
+DURATION: 4-WEEKS
 
-Responsive Design: The app is designed to be mobile and desktop-friendly, ensuring a seamless experience across different devices.
+MENTOR:NEELA SANTOSH
 
-Navigation: The app includes a user-friendly interface for easy interaction with summarization features.
 
-Built with the powerful Python ecosystem, the application ensures fast processing and an interactive experience. Gradio provides an easy-to-use UI framework, making the development process smooth and the user interface responsive.
+# DESCRIPTION:
 
-Key Technologies Used:
-Python: For backend logic and AI model integration.
+THIS PROJECT IS A DYNAMIC AND INTERACTIVE CHATBOT INTERFACE DEVELOPED USING CORE WEB TECHNOLOGIES: HTML, CSS, AND JAVASCRIPT. IT PROVIDES A USER-FRIENDLY POP-UP CHAT WINDOW DESIGNED FOR SEAMLESS COMMUNICATION.
 
-Gradio: For building the interactive web interface.
+THE HTML STRUCTURE ORGANIZES THE CHATBOT'S COMPONENTS, INCLUDING A HEADER WITH A LOGO AND CLOSE BUTTON, A BODY TO DISPLAY MESSAGES, AND A FOOTER CONTAINING an input field, emoji picker, file upload functionality, and a send button. The CSS, linked via a stylesheet, handles the visual presentation, ensuring a clean and responsive layout. It utilizes Material Symbols for icons, enhancing the user interface.
 
-Hugging Face Transformers (PEGASUS): For advanced text summarization.
+JAVASCRIPT POWERS THE CHATBOT'S INTERACTIVITY. It handles sending and receiving messages, displaying them in the chat body, managing file uploads (image only), and integrating an emoji picker. The code interacts with a Gemini API (though the API key is partially obscured in the provided snippet) to generate bot responses based on user input and uploaded files. It dynamically updates the chat history and scrolls to the latest messages.
 
-Torch: For efficient tensor computation supporting the model.
+KEY FUNCTIONALITIES IMPLEMENTED INCLUDE:
 
-How to Run:
-Clone this repository to your local machine.
+Dynamic Message Display: Adding user and bot messages to the chat interface.
+API Integration: Sending user messages and file data to a backend API and displaying the bot's response.
+File Upload: Allowing users to upload image files as part of their messages.
+Emoji Picker: Providing a user-friendly way to include emojis in messages.
+Responsive Input:Adjusting the input field's height based on the content.
+Enter Key Handling: Sending messages when the Enter key is pressed (with conditions for wider screens and no Shift key).
+File Upload Preview and Cancellation: Displaying a preview of the selected image and allowing the user to cancel the upload.
 
-Run pip install -r requirements.txt to install all dependencies.
+EXTERNAL LIBRARIES USED:
 
-Run python app.py to start the application.
+Emoji Mart: For implementing the emoji picker functionality.
+Google Fonts (Material Symbols): For providing consistent and scalable icons.
 
-Open your browser and go to http://localhost:7860 to see the app in action.
+THE APPLICATION RUNS DIRECTLY IN THE BROWSER BY OPENING THE HTML FILE. THE JAVASCRIPT HANDLES ALL THE FRONTEND LOGIC AND COMMUNICATES WITH THE EXTERNAL API FOR BOT RESPONSES.
 
-Future Enhancements:
-Integration of AI or machine learning models for more advanced text summarization techniques.
+FUTURE ENHANCEMENTS COULD INCLUDE: Handling more file types, improving the visual design, adding more sophisticated bot logic, implementing user authentication, and storing chat history.
 
-Support for multiple languages and various text formats (PDF, Word).
+WORKING ON THIS PROJECT DEMONSTRATES SKILLS IN DOM MANIPULATION, EVENT HANDLING, ASYNCHRONOUS JAVASCRIPT (FETCH API), FORM HANDLING, AND INTEGRATING EXTERNAL LIBRARIES TO BUILD A FUNCTIONAL AND INTERACTIVE USER INTERFACE. IT HIGHLIGHTS THE ABILITY TO CREATE A REAL-TIME COMMUNICATION INTERFACE USING FUNDAMENTAL WEB DEVELOPMENT TECHNOLOGIES.
 
-A backend service to allow users to save or export their summaries.
+# OUTPUT:
