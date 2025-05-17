@@ -1,4 +1,4 @@
-TextSummarization Tool (Python + Gradio)
+#TextSummarization Tool (Python + Gradio)
 
 TextSummarization is a modern web application built with Python and Gradio designed to simplify and enhance the process of summarizing large texts into concise summaries. This app aims to help users quickly extract the essential points from lengthy articles, research papers, news, or any type of content they wish to shorten.
 
